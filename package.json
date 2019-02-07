@@ -1,0 +1,11 @@
+{
+  "name": "@fancy-react/workspace",
+  "private": true,
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "devDependencies": {
+    "lerna": "^3.10.8"
+  }
+}
