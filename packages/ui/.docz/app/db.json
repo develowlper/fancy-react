@@ -1,0 +1,32 @@
+{
+  "config": {
+    "title": "Ui",
+    "description": "My awesome app using docz",
+    "menu": [],
+    "ordering": "descending",
+    "version": "0.1.0",
+    "repository": null,
+    "native": false,
+    "codeSandbox": true,
+    "themeConfig": {}
+  },
+  "entries": {
+    "src/Example/Example.mdx": {
+      "name": "Example",
+      "id": "bedea56b7c572f16c761ae54dda7724e",
+      "filepath": "src/Example/Example.mdx",
+      "link": null,
+      "slug": "src-example-example",
+      "route": "/src-example-example",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "example",
+          "value": "Example"
+        }
+      ]
+    }
+  }
+}
