@@ -12,12 +12,10 @@ module.exports = {
   resolve: {
     extensions: ['*', '.js', '.jsx']
   },
-  target: 'node',
   output: {
     path: __dirname + '/dist',
     publicPath: '/',
-    filename: 'bundle,js‚',
-    libraryTarget: 'commonjs2'
+    filename: 'bundle,js‚'
   },
   devServer: {
     contentBase: './dist'

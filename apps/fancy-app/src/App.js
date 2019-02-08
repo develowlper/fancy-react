@@ -3,8 +3,6 @@ import './App.css';
 
 import { Example } from '@fancy-react/ui';
 
-console.log('Example');
-
 class App extends Component {
   render() {
     return (
