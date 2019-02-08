@@ -1,14 +1,37 @@
 {
   "name": "@fancy-react/ui",
-  "version": "0.1.0-alpha.0",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "module": "index.js",
   "scripts": {
+    "build": "webpack --mode=production",
+    "cosmos": "cosmos",
+    "cosmos:export": "cosmos-export",
+    "docz:dev": "docz dev",
+    "docz:build": "docz build",
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "docz": "^0.13.7",
+    "docz-theme-default": "^0.13.7",
+    "html-webpack-plugin": "^3.2.0",
+    "prettier": "^1.16.4",
+    "react-cosmos": "^4.7.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "peerDependencies": {
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "prop-types": "15.6.2"
