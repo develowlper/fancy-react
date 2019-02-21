@@ -1,8 +1,14 @@
 import React from 'react';
 import { Context } from './provider';
 
+console.log(Context);
+
 const useProducts = () => {
-  return React.useContext(Context);
+  const products = React.useContext(Context);
+
+  console.log(products);
+
+  return products;
 };
 
 export { useProducts };
