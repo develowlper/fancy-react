@@ -8,6 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.2.0",
     "@fancy-react/ui": "*"
   },
   "author": "",
