@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "cosmos": "cosmos",
-    "bundle": "lerna exec --no-private babel --root-mode upward ./src --out-dir ./dist --ignore \"**/__jsxfixtures__/*\",\"**/*.fixtures.js\",\"**/*.test.js\",\"**/*.decorator.js\""
+    "bundle": "lerna exec --no-private babel --root-mode upward ./src --out-dir ./dist --ignore \"**/__jsxfixtures__/*\",\"**/*.fixtures.js\",\"**/*.test.js\",\"**/*.decorator.js\" ./node_modules"
   },
   "peerDependencies": {},
   "devDependencies": {
