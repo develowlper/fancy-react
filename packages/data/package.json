@@ -1,15 +1,18 @@
 {
-  "name": "data",
+  "name": "@fancy-react/data",
   "version": "0.1.0",
   "description": "",
   "main": "bundle/index.js",
   "scripts": {
+    "bundle": "babel --root-mode upward ./src --out-dir ./bundle --ignore \"**/__jsxfixtures__/*\",\"**/*.fixtures.js\",\"**/*.test.js\",\"**/*.decorator.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@babel/plugin-transform-runtime": "^7.2.0",
-    "@babel/runtime": "^7.3.1"
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0"
   }
 }

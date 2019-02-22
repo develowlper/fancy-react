@@ -1,15 +1,14 @@
 {
-  "name": "lib-ui",
-  "private": true,
-  "version": "1.0.0",
+  "name": "@fancy-react/fancy-app",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@babel/plugin-transform-runtime": "^7.2.0",
-    "@fancy-react/ui": "*"
+    "@fancy-react/ui": "*",
+    "@fancy-react/data": "*"
   },
   "author": "",
   "license": "ISC"

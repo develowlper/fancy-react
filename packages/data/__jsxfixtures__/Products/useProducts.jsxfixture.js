@@ -1,5 +1,5 @@
 import React from 'react';
-import { useProducts } from '../hooks';
+import { useProducts } from '../../src/Products';
 
 const Test = ({ count }) => {
   return <div>{count}</div>;
