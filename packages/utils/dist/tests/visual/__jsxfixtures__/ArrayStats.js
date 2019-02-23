@@ -7,11 +7,12 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
+var _ArrayStats = _interopRequireDefault(require("../ArrayStats"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Example = function Example() {
-  return _react.default.createElement("div", null, "Test");
-};
+var _default = _react.default.createElement(_ArrayStats.default, {
+  items: null
+});
 
-var _default = Example;
 exports.default = _default;
