@@ -1,0 +1,42 @@
+{
+  "config": {
+    "title": "Workspace",
+    "description": "My awesome app using docz",
+    "menu": [],
+    "ordering": "descending",
+    "repository": null,
+    "native": false,
+    "codeSandbox": true,
+    "themeConfig": {}
+  },
+  "entries": {
+    "docs/Home.mdx": {
+      "name": "Home",
+      "id": "f3241200b3e85b3b919f9d8df3bf19ca",
+      "filepath": "docs/Home.mdx",
+      "link": null,
+      "slug": "docs-home",
+      "route": "/docs-home",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "hello",
+          "value": "Hello"
+        }
+      ]
+    },
+    "packages/utils/src/docs/Home.mdx": {
+      "name": "Home",
+      "id": "f131444caa075153ff513988bebbf351",
+      "filepath": "packages/utils/src/docs/Home.mdx",
+      "link": null,
+      "slug": "packages-utils-src-docs-home",
+      "route": "/packages-utils-src-docs-home",
+      "order": 0,
+      "menu": null,
+      "headings": []
+    }
+  }
+}
