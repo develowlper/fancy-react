@@ -1,4 +1,4 @@
 import React from 'react';
-import Provider from '../../src/Products/provider';
+import Provider from './provider';
 
 export default ({ children }) => <Provider>{children}</Provider>;

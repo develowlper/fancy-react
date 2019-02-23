@@ -1,5 +1,5 @@
 {
-  "name": "@fancy-react/ui",
+  "name": "@fancy-react/utils",
   "version": "0.1.0",
   "description": "",
   "main": "dist/index.js",
@@ -8,17 +8,17 @@
   },
   "author": "",
   "license": "ISC",
-  "peerDependencies": {
-    "prop-types": "15.7.2",
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3"
+  "dependencies": {
+    "prop-types": "15.7.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.3",
     "@babel/preset-env": "^7.3.1",
-    "@babel/preset-react": "^7.0.0",
-    "chai": "^4.2.0",
-    "mocha": "^6.0.1"
+    "@babel/preset-react": "^7.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
   }
 }
