@@ -3,8 +3,8 @@
   "private": true,
   "scripts": {
     "cosmos": "cosmos",
-    "bundle": "lerna exec bundle",
-    "test": "jest"
+    "test": "jest",
+    "docz": "docz dev"
   },
   "peerDependencies": {},
   "devDependencies": {

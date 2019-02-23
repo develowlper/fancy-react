@@ -1,4 +1,1 @@
-import ArrayStats from './ArrayStats';
-console.log(ArrayStats);
-
-export { default } from './ArrayStats';
+export { default as ArrayStats } from './ArrayStats';
