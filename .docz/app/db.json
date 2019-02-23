@@ -15,6 +15,7 @@
       }
     ],
     "ordering": "descending",
+    "version": "0.2.0",
     "repository": null,
     "native": false,
     "codeSandbox": true,
@@ -72,6 +73,23 @@
         }
       ]
     },
+    "docs/packages/shop/Home.mdx": {
+      "name": "Home",
+      "menu": "@fancy-react/shop",
+      "id": "c60325af38071186561805e8749b5c8f",
+      "filepath": "docs/packages/shop/Home.mdx",
+      "link": null,
+      "slug": "docs-packages-shop-home",
+      "route": "/docs-packages-shop-home",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "shop",
+          "value": "Shop"
+        }
+      ]
+    },
     "docs/packages/ui/Home.mdx": {
       "name": "Home",
       "menu": "@fancy-react/ui",
@@ -103,23 +121,6 @@
           "depth": 1,
           "slug": "utils",
           "value": "Utils"
-        }
-      ]
-    },
-    "docs/packages/shop/Home.mdx": {
-      "name": "Home",
-      "menu": "@fancy-react/shop",
-      "id": "c60325af38071186561805e8749b5c8f",
-      "filepath": "docs/packages/shop/Home.mdx",
-      "link": null,
-      "slug": "docs-packages-shop-home",
-      "route": "/docs-packages-shop-home",
-      "order": 0,
-      "headings": [
-        {
-          "depth": 1,
-          "slug": "shop",
-          "value": "Shop"
         }
       ]
     },
