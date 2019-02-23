@@ -18,5 +18,6 @@
     "docz-theme-default": "^0.13.7",
     "prettier": "^1.16.4",
     "react-cosmos": "^4.7.0"
-  }
+  },
+  "version": "0.1.0"
 }
