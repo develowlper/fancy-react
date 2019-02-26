@@ -60,7 +60,7 @@ typings/
 .yarn-integrity
 
 #
-.docz/
+.docz/**
 
 # dotenv environment variables file
 .env
