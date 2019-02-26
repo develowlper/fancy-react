@@ -5,7 +5,10 @@
     "cosmos": "cosmos",
     "test": "jest",
     "docz:dev": "docz dev",
-    "docz:build": "docz build"
+    "docz:build": "docz build",
+    "prepare": "lerna bootstrap && lerna run bundle",
+    "gatsby": "yarn prepare && lerna run build --scope @fancy-react/fancy-gatsby",
+    "cra": "yarn prepare && lerna run build --scope @fancy-react/fancy-cra"
   },
   "peerDependencies": {},
   "devDependencies": {
