@@ -1,8 +1,8 @@
 export const imports = {
-  'docs/Home.mdx': () =>
-    import(/* webpackPrefetch: true, webpackChunkName: "docs-home" */ 'docs/Home.mdx'),
   'docs/GettingStarted.mdx': () =>
     import(/* webpackPrefetch: true, webpackChunkName: "docs-getting-started" */ 'docs/GettingStarted.mdx'),
+  'docs/Home.mdx': () =>
+    import(/* webpackPrefetch: true, webpackChunkName: "docs-home" */ 'docs/Home.mdx'),
   'docs/packages/data/Home.mdx': () =>
     import(/* webpackPrefetch: true, webpackChunkName: "docs-packages-data-home" */ 'docs/packages/data/Home.mdx'),
   'docs/packages/shop/Home.mdx': () =>
