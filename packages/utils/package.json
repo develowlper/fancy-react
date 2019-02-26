@@ -1,6 +1,6 @@
 {
   "name": "@fancy-react/utils",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -14,9 +14,9 @@
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.3",
+    "@babel/plugin-transform-runtime": "^7.2.0",
     "@babel/preset-env": "^7.3.1",
-    "@babel/preset-react": "^7.0.0",
-    "@babel/plugin-transform-runtime": "^7.2.0"
+    "@babel/preset-react": "^7.0.0"
   },
   "peerDependencies": {
     "react": "^16.8.3",
