@@ -177,6 +177,4 @@ typings/
 
 .docz
 
-**/dist
-
-packages/ui/dist‚
+dist/
