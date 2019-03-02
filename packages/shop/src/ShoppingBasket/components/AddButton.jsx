@@ -20,11 +20,15 @@ const Button = ({ text, product, onAdded }) => {
   );
 };
 
+Button.defaultProps = {
+  onAdded: undefined
+};
+
 Button.propTypes = {
   text: PropTypes.string.isRequired,
   product: PropTypes.shape({
     sku: PropTypes.string
-  }),
+  }).isRequired,
   onAdded: PropTypes.func
 };
 
