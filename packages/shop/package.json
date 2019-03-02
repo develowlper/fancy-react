@@ -1,11 +1,11 @@
 {
   "name": "@fancy-react/shop",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "dist/index.js",
   "license": "MIT",
   "dependencies": {
-    "@fancy-react/data": "0.2.1",
+    "@fancy-react/data": "^0.3.0",
     "@material-ui/core": "^3.9.2",
     "@material-ui/styles": "^3.0.0-alpha.10"
   }

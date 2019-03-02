@@ -1,13 +1,13 @@
 {
   "name": "@fancy-react/fancy-app",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@fancy-react/data": "^0.2.1",
+    "@fancy-react/data": "^0.3.0",
     "@fancy-react/ui": "^0.2.1"
   },
   "author": "",
