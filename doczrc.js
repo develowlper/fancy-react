@@ -8,6 +8,7 @@ export default {
     '@fancy-react/shop',
     '@fancy-react/data',
     '@fancy-react/utils',
+    '@fancy-react/fancy-gatsby',
     { name: 'Github', href: 'https://github.com/develowlper/fancy-react' }
   ]
 };
