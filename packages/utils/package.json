@@ -2,6 +2,7 @@
   "name": "@fancy-react/utils",
   "version": "0.2.1",
   "description": "",
+  "private": true,
   "main": "dist/index.js",
   "scripts": {
     "bundle": "babel --root-mode upward ./src --out-dir ./dist"
