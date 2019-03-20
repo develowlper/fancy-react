@@ -1,0 +1,44 @@
+Arguments: 
+  /Users/keule/.nvm/versions/node/v10.10.0/bin/node /usr/local/Cellar/yarn/1.13.0/libexec/bin/yarn.js install --mutex network:42424 --non-interactive
+
+PATH: 
+  /Users/keule/Documents/Code/fancy-react/packages/shop/node_modules/.bin:/Users/keule/Documents/Code/fancy-react/packages/node_modules/.bin:/Users/keule/Documents/Code/fancy-react/node_modules/.bin:/Users/keule/Documents/Code/node_modules/.bin:/Users/keule/Documents/node_modules/.bin:/Users/keule/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/Users/keule/.nvm/versions/node/v10.10.0/bin:/Users/keule/.nvm/versions/node/v10.10.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/CrossPack-AVR/bin:/Users/keule/.rvm/bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.10.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@fancy-react%2fdata: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:66255:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:129397:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:130369:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:130291:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1092:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+  	"name": "@fancy-react/shop",
+  	"version": "0.1.0",
+  	"main": "dist/index.js",
+  	"license": "MIT",
+  	"dependencies": {
+  		"@fancy-react/data": "^0.1.0"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
