@@ -1,6 +1,6 @@
 {
   "name": "@fancy-react/fancy-app",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "",
   "main": "index.js",
   "private": true,
@@ -8,10 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@fancy-react/data": "^0.3.0",
+    "@fancy-react/data": "^0.3.1",
     "@fancy-react/ui": "https://github.com/develowlper/fancy-react-ui.git#semver:^0.1.0"
   },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {}
+  "license": "ISC"
 }

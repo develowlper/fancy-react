@@ -1,9 +1,9 @@
 {
   "name": "@fancy-react/fancy-cra",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "private": true,
   "dependencies": {
-    "@fancy-react/data": "^0.3.0",
+    "@fancy-react/data": "^0.3.1",
     "react-scripts": "2.1.5"
   },
   "peerDependencies": {
