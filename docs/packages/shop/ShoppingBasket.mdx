@@ -1,0 +1,65 @@
+---
+name: Shopping Basket
+menu: '@fancy-react/shop'
+---
+
+import { PropsTable, Playground } from 'docz';
+import {
+  AddToCart,
+  RemoveFromCart,
+  ResetCart,
+  BasketStore,
+  useBasket
+} from '../../../packages/shop/src';
+
+# Shopping Basket
+
+- [Components](#Components)
+  - [Buttons](#Buttons)
+- [Data](#Data)
+
+## Components <a name="Components"/>
+
+### Buttons <a name="Buttons"/>
+
+#### AddToCart
+
+<PropsTable of={AddToCart} />
+
+<Playground>
+  <BasketStore basket={[]}>
+    <AddToCart text="Add" />
+  </BasketStore>
+</Playground>
+
+#### RemoveFromCart
+
+<PropsTable of={RemoveFromCart} />
+
+<Playground>
+  <BasketStore basket={[]}>
+    <RemoveFromCart text="remove" index={0} />
+  </BasketStore>
+</Playground>
+
+#### ResetCart
+
+<PropsTable of={ResetCart} />
+
+<Playground>
+  <BasketStore basket={[]}>
+    <ResetCart text="reset" />
+  </BasketStore>
+</Playground>
+
+## Data
+
+### useBasket
+
+Usage:
+
+```jsx
+import { useBasket } from '@fancy-react/shop';
+
+const basket = useBasket();
+```

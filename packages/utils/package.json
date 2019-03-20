@@ -1,0 +1,26 @@
+{
+  "name": "@fancy-react/utils",
+  "version": "0.2.2",
+  "description": "",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "bundle": "babel --root-mode upward ./src --out-dir ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prop-types": "15.7.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  }
+}
